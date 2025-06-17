@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled List</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    ul.styled-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul.styled-list li {
+      background: #f9f9f9;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      border-left: 5px solid #4caf50;
+      transition: background 0.3s;
+    }
+
+    ul.styled-list li:hover {
+      background: #e8f5e9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Messenger Type with different BOT</h2>
+    <ul class="styled-list">
+      <li>📘 Messaging plus Amazon Lex V1</li>
+      <li>🧠 Messaging plus Google Cloud Dialogflow CX</li>
+      <li>🚀 Messaging plus Google Cloud Dialog ES</li>
+      <li>✅ Messaging plus BOT Connector</li>
+      <li>📤 Messaging plus Nuance Mix</li>
+    </ul>
+  </div>
+</body>
+</html>
